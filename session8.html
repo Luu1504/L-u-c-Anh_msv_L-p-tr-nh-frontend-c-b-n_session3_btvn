@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký hội viên</title>
+    
+</head>
+<body>
+
+    <form>
+        <label for="hvt">Họ và tên:</label>
+        <input type="text" id="hvt" name="hvt"> <br>
+
+        <label for="date">Ngày sinh:</label>
+        <input type="date" id="date" name="date"> <br>
+
+        <label>Giới tính:</label>
+        <div class="radio-group">
+            <input type="radio" id="nam" name="gioitinh"> <label for="nam" style="width: auto;">Nam</label>
+            <input type="radio" id="nu" name="gioitinh"> <label for="nu" style="width: auto;">Nữ</label>
+        </div> <br>
+
+        <label for="sdt">Số điện thoại:</label>
+        <input type="text" id="sdt" name="sdt"> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"> <br>
+
+        <label for="congty">Tên công ty:</label>
+        <input type="text" id="congty" name="congty"> <br>
+
+        <label for="vaitro">Vai trò trong công ty:</label>
+        <select id="vaitro" name="vaitro">
+            <option value="ceo">Giám đốc điều hành (CEO)</option>
+            <option value="manager">Quản lý</option>
+            <option value="staff">Nhân viên</option>
+        </select> <br>
+
+        <label for="quymo">Quy mô công ty:</label>
+        <select id="quymo" name="quymo">
+            <option value="nho">Doanh nghiệp nhỏ</option>
+            <option value="vua">Doanh nghiệp vừa</option>
+            <option value="lon">Doanh nghiệp lớn</option>
+        </select> <br>
+
+        <label for="nganh">Ngành nghề công ty:</label>
+        <input type="text" id="nganh" name="nganh"> <br>
+
+        <label for="lydo">Lý do tham gia câu lạc bộ:</label>
+        <textarea id="lydo" name="lydo"></textarea> <br>
+
+        <label for="kn">Kinh nghiệm lãnh đạo:</label>
+        <textarea id="kn" name="kn"></textarea> <br>
+
+        <label for="muctieu">Mục tiêu khi tham gia câu lạc bộ:</label>
+        <textarea id="muctieu" name="muctieu"></textarea> <br>
+
+        <label>Chương trình sự kiện mong muốn:</label>
+        <div class="checkbox-group">
+            <input type="checkbox" id="net"> <label for="net" style="width: auto;">Networking</label>
+            <input type="checkbox" id="work"> <label for="work" style="width: auto;">Workshops</label>
+            <input type="checkbox" id="con"> <label for="con" style="width: auto;">Hội thảo</label>
+        </div> <br>
+
+        <label>Đăng ký nhận bản tin:</label>
+        <input type="checkbox" id="news"> <label for="news" style="width: auto;">Có</label> <br>
+
+        <button type="submit">Đăng ký hội viên</button>
+    </form>
+
+</body>
+</html>
